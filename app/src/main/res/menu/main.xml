@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/recent_significant_D"
+            android:title="Recent/Significant(sort:Date)"
+            />
+        <item
+            android:id="@+id/recent_significant_M"
+            android:title="Recent/Significant(sort:Mag)"
+            />
+        <item
+            android:id="@+id/nearby_200_D"
+            android:title="Nearby +200km (sort:Date)"
+            />
+        <item
+            android:id="@+id/nearby_200_M"
+            android:title="Nearby +200km (sort:Mag)"
+            />
+        <item
+            android:id="@+id/custom_search"
+            android:title="Custom search"
+            />
+    </group>
+
+    <item
+        android:id="@+id/about"
+        android:title="About..."
+        />
+
+</menu>
